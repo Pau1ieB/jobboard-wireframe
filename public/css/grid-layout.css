@@ -1,0 +1,29 @@
+.grid-container{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows: 25px 50px 50px 25px 1fr 25px 50px 25px;
+    grid-template-columns:25px 50px 300px 250px 1fr 50px 25px 100px 25px 50px 1fr 200px 200px 100px 100px 25px;     
+}
+
+section{
+    grid-area: 5/2/6/16;
+    overflow-y: scroll;
+}    
+
+.grid-container > a > button,section > a > button{
+    height:100%;
+}
+
+section[data-type='profile']{
+    grid-area: 5/2/6/16;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section[data-type='add-data']{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    grid-template-rows: 1fr 50px 50px 1fr;
+}

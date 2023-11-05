@@ -1,0 +1,45 @@
+:root{
+    --dn-grey:rgb(60, 60, 59);
+    --dn-light-grey:rgba(60, 60, 59, 0.8);
+    --dn-green:#89c82e;
+    --dn-pink:#e70064;
+
+}
+
+.dn-grey{
+    color: var(--dn-grey);
+}
+
+.dn-green{
+    color: var(--dn-green);
+}
+
+.dn-pink{
+    color: var(--dn-pink);
+}
+
+.dn-black{
+    color:black;
+}
+
+p{
+    color: var(--dn-grey)
+}
+
+.green-btn{
+    background-color: var(--dn-green);
+}
+
+.pink-btn{
+    background-color: var(--dn-pink);
+    color: white;
+}
+
+.bg-grey{
+    background-color: var(--dn-grey);
+}
+
+.bg-white{
+    background-color: white;
+}
+
